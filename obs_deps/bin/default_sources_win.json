@@ -1,0 +1,118 @@
+{
+    "defaultSourceNames": {
+        "imageBackground": "defaultBackgroundImage",
+        "cameraWithPeople": "defaultCameraWithPeople",
+        "cameraWithContent": "defaultCameraWithContent",
+        "displayContent": "defaultDisplayContent",
+        "textTitle": "defaultTextTitle",
+        "textDoctor": "defaultTextDoctor",
+        "textIntroduce": "defaultTextIntroduce"
+    },
+    "sources": [{
+            "sourceId": "image_source",
+            "sourceName": "defaultBackgroundImage",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 1.0,
+            "scaleType": 2,
+            "settings": {
+                "file": "C:/Users/Admin/Pictures/bg0.png"
+            }
+        }, {
+            "sourceId": "dshow_input",
+            "sourceName": "defaultCameraWithPeople",
+            "x": 0.02,
+            "y": 0.12,
+            "width": 0.16,
+            "height": 0.16,
+            "scaleType": 6,
+            "settings": {
+                "video_device_id": "",
+				"res_type":1,
+				"resolution":"640x360"
+            }
+        }, {
+            "sourceId": "dshow_input",
+            "sourceName": "defaultCameraWithContent",
+            "x": 0.20,
+            "y": 0.15,
+            "width": 0.78,
+            "height": 0.78,
+            "scaleType": 2,
+            "settings": {
+                "video_device_id": ""
+            }
+        }, {
+            "sourceId": "monitor_capture",
+            "sourceName": "defaultDisplayContent",
+            "x": 0.20,
+            "y": 0.12,
+            "width": 0.78,
+            "height": 0.78,
+            "scaleType": 2,
+            "settings": {
+                "monitor": 0,
+                "capture_cursor": true
+            }
+        }, {
+            "sourceId": "text_gdiplus",
+            "sourceName": "defaultTextTitle",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.08,
+            "scaleType": 2,
+            "settings": {
+                "text": "医生圈直播测试标题",
+                "align": "center",
+                "valign": "center",
+                "color": 16777215,
+                "font": {
+                    "face": "Microsoft YaHei",
+					"size":256
+                }
+            }
+        },
+        {
+            "sourceId": "text_gdiplus",
+            "sourceName": "defaultTextDoctor",
+            "x": 0.02,
+            "y": 0.35,
+            "width": 0.16,
+            "height": 0.05,
+            "scaleType": 2,
+            "settings": {
+                "text": "李医生",
+                "align": "center",
+                "valign": "center",
+                "color": 16777215,
+                "font": {
+                    "face": "Microsoft YaHei",
+					"size":256
+                }
+            }
+        },
+        {
+            "sourceId": "text_gdiplus",
+            "sourceName": "defaultTextTitle",
+            "x": 0.02,
+            "y": 0.41,
+            "width": 0.16,
+            "height": 0.3,
+            "scaleType": 2,
+			"boundsAlign":4,
+            "settings": {
+                "text": "湖南省人民医院\n梅溪湖院区",
+                "align": "center",
+                "valign": "top",
+                "color": 16777215,
+                "font": {
+                    "face": "Microsoft YaHei",
+					"size":256
+                }
+            }
+        }
+    ]
+
+}
